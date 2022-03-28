@@ -1,0 +1,15 @@
+.container{
+    width: 30%;
+    min-height: 10em;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition:all .5s ease-in-out;
+    background-color: darkmagenta;
+    position: fixed;
+    top: -100%;
+    left: 40%;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

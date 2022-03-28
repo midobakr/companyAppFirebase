@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box !important;
+  /* color:white  !important;
+  background-color:black  !important;
+  border: 1px solid white; */
+}
+html{
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+ color:white;
+ display: block; 
+}

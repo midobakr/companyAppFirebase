@@ -1,0 +1,17 @@
+.nav{
+    height: 6vh;
+    box-sizing: border-box;
+    background-color: brown;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px;
+}

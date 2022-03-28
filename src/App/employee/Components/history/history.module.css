@@ -1,0 +1,78 @@
+.container {
+    flex: 0 0 80%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+table {
+    background-color: rgb(47, 51, 54);
+    width: 100%;
+}
+
+th {
+    background-color: black;
+    padding: 20px;
+    color: #1A92DC;
+}
+
+td {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid rgb(47, 51, 54);
+    color: white;
+}
+
+.controllerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.controller:hover {
+    color: #1A92DC;
+}
+
+@media screen and (max-width:700px) {
+    table {
+        font-size: 12px;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .label {
+        font-size: 18px;
+    }
+    .controllerContainer{
+        width: 100%;
+    }
+    .controller {
+        font-size: 12px;
+    }
+    
+    /* .controller:hover {
+        color: white;
+    } */
+/* 
+    .controller:focus {
+        color: #1A92DC;
+    } */
+}

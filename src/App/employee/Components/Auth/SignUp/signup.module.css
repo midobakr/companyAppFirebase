@@ -1,0 +1,25 @@
+.container{
+    height: 100vh;
+  border: 2px solid transparent;
+    background-color: white;
+    color:black
+}
+.link{
+    display: inline;
+    color: blue;
+
+}
+.h4{
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    width: 40%;
+}
+@media only screen and (max-width:700px) {
+    .h4{
+        width: 80%;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    
+}
